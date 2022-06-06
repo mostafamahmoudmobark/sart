@@ -1,0 +1,273 @@
+.body
+{
+font-family: 'Poppins',
+sans-serif;
+font-weight: 500;
+height: 6000px;
+}
+/* start nav bar */
+.nav{height: 90px;color: #101010;padding-bottom: 0px;background-color: #fff;}
+a .navbar-nav 
+{
+    float: left;
+    margin: auto;
+    margin-left: 11px;
+    background-color: #fff;
+    color: #101010;
+}
+.navbar-default .navbar-nav>li>a
+ {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+    color: #000000;
+    line-height: 24px;
+    font-size: 17px;
+    padding-top: 33px;
+    padding-left: 65px;
+    background-color: #fff;
+}
+.navbar-header span {font-weight: bold;color: #101010;background-color: #fff;}
+
+/* end nav bar */
+/* start section slider */
+.slider
+{
+    padding-top: 0px;
+    margin-bottom: 25px;
+    height: 570px;
+    width: 100%;
+    margin-top: -20px;
+    background: url(../images/04.png) no-repeat center center fixed;
+    background-size:cover;
+}
+.slider .color
+{
+    background-color:rgba(2, 2, 2, 0.2) ;
+    min-height: 570px;
+    width: 100%;
+}
+.slider .color .container
+{
+   color: #fff;
+}
+.slider .color .container h1
+{
+    padding-top: 150px;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.lead
+ {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: 'Poppins';
+}
+.slider .color .container .input-group {
+     max-width: 52rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 45px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+input,select, textarea {
+    font-family:Poppins;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    font-weight: 500;  
+    line-height: 24px;    
+}
+.slider .color .container  button span
+{
+    background-color: #a50a6c;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+/* end section slider */
+/* start section table_price */
+.table_price{height: 300px; margin-bottom: 50px;}
+.table_price h2{font-family:Poppins;font-Weight:500 ;font-size: 36px;line-height: 54px; }
+.table_price .container .price_box{text-align: center;box-shadow: 2px 2px 10px rgb(0 0 0 / 25%);border-radius: 12px;}
+.table_price .container .price_box img{width: 100%;border-radius: 12px;height: 150px;}
+.table_price .container .price_box h3{font-size: 20px;;font-family: Poppins;line-height: 24px ;color: black;}
+.table_price .container .price_box p{font-size: 16px;font-weight: 400;font-family: Poppins;line-height: 24px; color: #8A8A8A;}
+/* end section table_price */
+
+/* start section three */
+.three{height: 400px;margin-bottom: 50px;}
+.three .container h2{color: #101010;padding-bottom: 45px;font-size: 36px;}
+.three .container p{color: gray;padding-bottom: 25px;line-height: 1.85;}
+.three .container .btn
+{
+    background-color: #a50a6c;
+    color: #fff;
+    height: 70px;
+    width: 140px;
+    border-radius: 35%;
+    font-size: 18px;
+    border: 3px solid #a50a6c;
+    margin-bottom: 50px;
+}
+.three .container .btn:hover
+{
+    background-color: #fff;
+    color: #a50a6c;
+}
+.three .container .safy
+{
+        background-color: #fff;
+        color: #a50a6c;
+        border:3px solid #a50a6c;
+        margin-left: 20px;
+        margin-bottom: 50px;
+}
+.three .container .safy:hover
+{
+    background-color: #a50a6c;
+    color: #fff;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.three .container img{width: 100%;border-radius: 10%;}
+/* end section three */
+/* start section four */
+.four{height: 400px;margin-bottom: 50px;}
+.four .container h2{font-size: 36px;padding-bottom: 30px;margin-top: -17px;}
+.four .container .m{padding-left: 122px;padding-top: 45px;margin-bottom: 50px;}
+.four .container p{margin-top: -11px;line-height: 1.8;font-size: 17px;}
+.four .container .yyy {margin-bottom: 50px;}
+.four .container .yyy ul{line-height: 1.8;font-size: 17px;margin-top: 60px;margin-left: 80px;}
+/* end section four */
+/* start section five */
+.five .container{margin-bottom: 50px;}
+.five .container .ma{padding-left: 115px;padding-top: 60px;margin-bottom: 50px;}
+.five .container .maa {padding-left: 100px;padding-top: 45px;margin-bottom: 150px;}
+.five .container h2 {font-size: 36px;padding-bottom: 30px;margin-top: -40px;}
+.five .container p {line-height: 1.6;font-size: 18px;}
+/* end section five */
+/* start section six */
+.six .container{font-family: 'Conv_Eina01-Regular';}
+.six .container h2{color: black;padding-bottom: 10px;}
+.six .container .lll{box-shadow: 2px 2px 10px rgb(0 0 0 / 25%); border-radius: 10%;}
+.six .container .kkk { box-shadow: 2px 2px 10px rgb(0 0 0 / 25%);border-radius: 10%;}
+.six .container .ggg {box-shadow: 2px 2px 10px rgb(0 0 0 / 25%);border-radius: 10%;}
+.six .container .price_box .box-img img {width: 103%; height:248px;border-radius: 10%;}
+.six .container .price_box .box-img img {width: 103%; height:248px;border-radius: 10%;margin-left:-1px;margin-top:16px;}
+.six .container .text-box p{font-size: 20px;color: #777;}
+.six .container .text-box h3{font-size: 34px;color: #000;text-transform: capitalize;line-height: 28.13px;margin-bottom: 12px;}
+.six .container .text-box ol{padding-left: 62px;}
+.six .container .text-box ol span{padding-left: 15px;font-size: 20px;font-family: 'Conv_Eina01-SemiBold';font-weight: bold;color: #000;} 
+.six .container .text-box h6{font-size: 20px;line-height: 24px;font-weight: normal;color: #777;}
+.six .container .text-box h5{color: #f69d1b;font-size: 21px;font-weight: bold;}
+.six .container .lll .text-box h5 span {color: #23784f;font-size: 21px;font-weight: bold;}
+.six .container .ggg .text-box h5 {color: #f69d1b;font-size: 21px;font-weight: bold;}
+.six .container .ggg .text-box h5 span {color: #23784f;font-size: 21px;font-weight: bold;}
+.six .container .text-box h5{color: #f69d1b;font-size: 21px;font-weight: bold;}
+.six .container .lll .text-box h5 span {color: #23784f;font-size: 21px;font-weight: bold;}
+.six .container .text-box h4{color: #a40a6c;font-size: 27px;font-weight: bold;}
+.six .container .box .box_write_two p{font-size: 20px;color: black;}
+.six .container .box .box_write_two span
+{
+    margin-left: -74px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    border-bottom: 9px solid #a50a6c;
+    border-top: 9px solid #23784f;
+    border-left: 9px solid #23784f;
+    border-right: 9px solid #f49201;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.six .container .lll .text-box h6{font-size: 20px;line-height: 24px; font-weight: normal;
+color: #777;margin-bottom: 16px;font-family: 'Conv_Eina01-SemiBold';}
+.six .container .kkk .text-box h4{color: #23784f;font-size: 27px; font-weight: bold;}
+.six .container .kkk .text-box h5 {color: #23784f;font-size: 21px;font-weight: bold;}
+.six .container .kkk .text-box h6 
+{font-size: 20px;
+line-height: 24px;font-weight: normal;
+color: #777;margin-bottom: 16px;font-family:'Conv_Eina01-SemiBold';}
+.six .container .ggg .text-box h6{font-size: 20px;line-height: 24px;font-weight: normal;
+color: #777;margin-bottom: 16px; font-family: 'Conv_Eina01-SemiBold';}
+/* end section six */
+/* start section seven */
+.seven .container
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.seven .container h2
+{
+    padding-bottom: 15px;
+}
+.seven .container img
+{
+    width: 100%;
+    height:500px;
+    margin-bottom: 10px;
+}
+.seven .container .aaa img
+{
+    width: 335px;
+    height: 250px;
+}
+.seven .container .bbb img
+{
+    width: 335px;
+    height: 239px;
+    margin-top: 10px;
+}
+.seven .container .ali .iii img
+{
+    width: 400px;
+    height: 300px;
+    margin-left: 15px;
+}
+.seven .container .ali .nnn img
+ {
+    width: 796px;
+    height: 300px;
+    margin-left: 30px;
+}
+/* end section seven */
+/* start section footer */
+.footer
+{
+    height: 450px;
+}
+.footer .container .ccc img
+{
+    width: 30px ;
+    height: 30px;
+}
+.footer .container .lead {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: 'Poppins';
+    padding-top: 40px;}
+.footer .container h4
+{
+    margin-top: 124px;
+}
+.footer .container ul li
+{
+    margin-bottom: 20px;
+}
+.footer .container ul li a
+{color: #8A8A8A;
+
+}
+/* end .section footer */
